@@ -16,12 +16,13 @@ In configuration property -> C/C++ -> command line: add "/D _CRT_SECURE_NO_WARNI
 In configuration property -> linkers -> General: "additional library directories", include pcap SDK's lib directory.
 
 In main cpp file of the program you need to add two lines of macro definitions (specifying the linker to link the external library):
+
 <code>
 #pragma comment(lib,"wpcap.lib")
 #pragma comment(lib,"ws2_32.lib")
 </code>
 
-![show1](./read_res/show1.jpg)
-![show2](./read_res/show2.jpg)
-![show3](./read_res/show3.jpg)
-![show4](./read_res/show4.jpg)
+![show1](./readme_res/show1.jpg)
+![show2](./readme_res/show2.jpg)
+![show3](./readme_res/show3.jpg)
+![show4](./readme_res/show4.jpg)
