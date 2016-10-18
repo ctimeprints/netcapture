@@ -17,10 +17,10 @@ In configuration property -> linkers -> General: "additional library directories
 
 In main cpp file of the program you need to add two lines of macro definitions (specifying the linker to link the external library):
 
-<code>
+```c
 #pragma comment(lib,"wpcap.lib")
 #pragma comment(lib,"ws2_32.lib")
-</code>
+```
 
 ![show1](./readme_res/show1.jpg)
 ![show2](./readme_res/show2.jpg)
